@@ -4,21 +4,21 @@
 }
 
 .dashboard-header{
-    background-color: #5FB7BC;
+    background-color: #000;
     border-radius: 15px;
     padding: 0 5px;
-    box-shadow: 0 0 20px 0.2em #5FB7BC;
+    box-shadow: 0 0 20px 0.3em #000;
 }
 
-.metamask-button{
-    width: 200px;
+.myalgo-button{
+    width: 175px;
     height: 40px;
     background-color: black;
     color: white;
 }
 
-.metamask-button:hover{
-    box-shadow:  0 0 20px 0.25em #5FB7BC;
+.myalgo-button:hover{
+    box-shadow:  0 0 20px 0.25em #000;
     background-color: white;
     color: black;
     font-weight: bold;
@@ -36,7 +36,7 @@
 }
 
 .mint-button:hover{
-    box-shadow:  0 0 15px 0.25em #5FB7BC;
+    box-shadow:  0 0 15px 0.25em #000;
     background-color: white;
     color: black;
     font-weight: bold;
