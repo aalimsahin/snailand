@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+}
+
+.dashboard{
+  width: 350px;
+  position: sticky;
+  top: 0;
+}

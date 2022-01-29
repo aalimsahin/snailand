@@ -1,0 +1,47 @@
+.dashboard{
+    background-image: url(../assets/background.png);
+    background-repeat: round;
+}
+
+.dashboard-header{
+    background-color: #5FB7BC;
+    border-radius: 15px;
+    padding: 0 5px;
+    box-shadow: 0 0 20px 0.2em #5FB7BC;
+}
+
+.metamask-button{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+.metamask-button:hover{
+    box-shadow:  0 0 20px 0.25em #5FB7BC;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.page-part:hover{
+    color:black;
+}
+
+.mint-button{
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+.mint-button:hover{
+    box-shadow:  0 0 15px 0.25em #5FB7BC;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    box-shadow:  0 0 15px 0.25em black;
+}

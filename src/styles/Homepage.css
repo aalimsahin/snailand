@@ -1,0 +1,36 @@
+.homepage{
+    background-color: #5FB7BC ;
+    color: white;
+}
+
+.roadmap-left{
+    padding-right: 15px;
+    border-right: white 5px solid;
+    align-items: right;
+}
+
+.roadmap-right{
+    padding-left: 15px;
+    align-items: left;
+}
+
+.roadmap-header-left{
+    font-weight: bold;
+    border: white 2px solid;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+    text-align: right;
+    margin-left: 61%;
+    color: black;
+}
+
+.roadmap-header-right{
+    font-weight: bold;
+    border: white 2px solid;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+    margin-right: 61%;
+    color: black;
+}
