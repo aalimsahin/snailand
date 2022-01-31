@@ -1,47 +1,98 @@
-.dashboard{
-    background-image: url(../assets/background.png);
-    background-repeat: round;
+.dashboard-wrapper {
+  background-image: url(../assets/background.png);
+  background-repeat: round;
+  width: 350px;
 }
 
-.dashboard-header{
-    background-color: #000;
-    border-radius: 15px;
-    padding: 0 5px;
-    box-shadow: 0 0 20px 0.3em #000;
+@media (max-width: 350px) {
+  .dashboard-wrapper {
+    width: 100vw;
+  }
 }
 
-.myalgo-button{
-    width: 175px;
-    height: 40px;
-    background-color: black;
-    color: white;
+@media (max-width: 1024px) {
+  .dashboard-wrapper {
+    opacity: 0;
+    display: none;
+  }
+  .expanded {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex !important;
+    opacity: 1;
+    transition: opacity 2s linear;
+    animation: animation 1s forwards;
+  }
 }
 
-.myalgo-button:hover{
-    box-shadow:  0 0 20px 0.25em #000;
-    background-color: white;
-    color: black;
-    font-weight: bold;
+.dashboard-header {
+  background-color: rgba(62, 153, 97, 0.1);
+  /* border-radius: 15px; */
+  padding: 0 5px;
+  /* box-shadow: 0 0 20px 0.1em rgb(62, 153, 97); */
 }
 
-.page-part:hover{
-    color:black;
+.dashboard-header:hover {
+  background-color: rgba(62, 153, 97, 0.5);
 }
 
-.mint-button{
-    width: 70px;
-    height: 40px;
-    background-color: black;
-    color: white;
+.myalgo-button {
+  width: 175px;
+  height: 40px;
+  background-color: black;
+  color: white;
 }
 
-.mint-button:hover{
-    box-shadow:  0 0 15px 0.25em #000;
-    background-color: white;
-    color: black;
-    font-weight: bold;
+.myalgo-button:hover {
+  box-shadow: 0 0 20px 0.25em #000;
+  background-color: white;
+  color: black;
+  font-weight: bold;
 }
 
-a:hover{
-    box-shadow:  0 0 15px 0.25em black;
+.page-part:hover {
+  color: black;
+}
+
+.mint-button {
+  width: 70px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
+.mint-button:hover {
+  box-shadow: 0 0 15px 0.25em #000;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  box-shadow: 0 0 15px 0.25em black;
+}
+
+.menu-bars {
+  position: fixed;
+  top: 24px;
+  left: 18px;
+  z-index: 99;
+  color: white;
+  user-select: none;
+}
+
+@media (min-width: 1024px) {
+  .menu-bars {
+    display: none;
+  }
+}
+
+@keyframes animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

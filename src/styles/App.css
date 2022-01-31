@@ -2,8 +2,7 @@
   display: flex;
 }
 
-.dashboard{
-  width: 350px;
+.dashboard {
   position: sticky;
   top: 0;
 }
