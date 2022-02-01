@@ -2,6 +2,7 @@
   background-image: url(../assets/background.png);
   background-repeat: round;
   width: 350px;
+  position: fixed;
 }
 
 @media (max-width: 350px) {
