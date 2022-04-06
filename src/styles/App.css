@@ -3,6 +3,7 @@
 }
 
 .dashboard {
-  position: sticky;
   top: 0;
+  position: sticky;
 }
+

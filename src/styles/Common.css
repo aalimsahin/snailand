@@ -67,6 +67,14 @@
 .tc-white {
   color: white;
 }
+
+.tc-black {
+  color: black;
+}
+
+.tc-paribu {
+  color: #A1B13C;
+}
 /* font size */
 .fs-125 {
   font-size: 1.25rem;
@@ -129,10 +137,16 @@
   margin-bottom: 5%;
 }
 
+
+
 /* height */
 
 .height-100vh {
   height: 100vh;
+}
+
+.height-600px {
+  height: 600px;
 }
 
 /* width */
@@ -147,4 +161,8 @@
 
 .width-100 {
   width: 100%;
+}
+
+.width-300px {
+  width: 300px;
 }

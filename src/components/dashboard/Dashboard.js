@@ -8,15 +8,19 @@ import { useRef } from "react/cjs/react.development";
 
 const Dashboard = ({
   homeRef,
+  sssRef,
   snailLandRef,
   tokenomicsRef,
   roadmapRef,
   rarityRef,
+  myNFTsRef
 }) => {
   const menuRef = useRef();
 
   return (
-    <Fragment>
+    
+    
+    <Fragment  >
       <div
         className="menu-bars"
         onClick={() => {
@@ -39,20 +43,23 @@ const Dashboard = ({
         className="dashboard-wrapper height-100vh flex-column "
       >
         <div className="fg-1 fs-135 flex-center tc-white">
-          <span className="dashboard-header fs-300 fw-bold">SnaiLeague</span>
+          <span className="dashboard-header fs-300 fw-bold ">SnailLand</span>
         </div>
         <ConnectMyAlgo />
         <Pages
           homeRef={homeRef}
+          sssRef={sssRef}
           snailLandRef={snailLandRef}
           tokenomicsRef={tokenomicsRef}
           roadmapRef={roadmapRef}
           rarityRef={rarityRef}
+          myNFTsRef={myNFTsRef}
         />
         <Mint />
         <DashboardFooter />
       </div>
     </Fragment>
+
   );
 };
 
